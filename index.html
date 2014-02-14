@@ -41,6 +41,10 @@
           <button id="trigger-overlay-mvmt" type="button" class="trigger-mvmt">
             <i class="fa fa-road"></i>
             Our <span>Initiatives</span></button>
+          <!-- <button class="md-trigger" data-modal="modal-muhibbains">
+            <i class="fa fa-facebook"></i>
+            <span>Test</span> Us</button> -->
+
           <!-- <button type="button" class="facebook" onclick="(function(){win=window.open('http://facebook.com/madrasahmahabbah'); win.focus();})(); return false;">
             <i class="fa fa-facebook"></i>
             <span>Follow</span> Us</button> -->
@@ -101,7 +105,8 @@
 
     </div><!-- /container -->
 
-    <!-- Overlay Movements -->
+    <!-- Overlays -->
+
     <div class="overlay-mvmt overlay-mvmt-hugeinc">
       <div class="overlay-mvmt-bg"></div>
       <button type="button" class="overlay-mvmt-close">Close</button>
@@ -118,33 +123,89 @@
       </nav>
     </div>
 
-    <!-- Overlay About -->
     <div class="overlay-about overlay-about-contentpush">
       <button type="button" class="overlay-about-close">Close</button>
 
       <div class="mahabbah-about clearfix">
         <div class="cols">
           <div class="col">
-            <h3>Learn.</h3>
-            <p>
-              We met at a <em>Madrasah</em> of knowledge.
-            </p>
+            <a href="#" class="md-trigger" data-modal="modal-learn">
+              <h3>Learn.</h3>
+              <p>
+                We met at a <em>Madrasah</em> of knowledge.
+              </p>
+            </a>
           </div>
           <div class="col">
-            <h3>Love.</h3>
-            <p>
-              We experienced something really special. We experienced <em>Mahabbah</em>.
-            </p>
+            <a href="#" class="md-trigger" data-modal="modal-love">
+              <h3>Love.</h3>
+              <p>
+                We experienced something really special. We experienced <em>Mahabbah</em>.
+              </p>
+            </a>
           </div>
           <div class="col">
-            <h3>Live.</h3>
-            <p>
-              And now we aspire to be <em>The Muhibbains</em>.
-            </p>
+            <a href="#" class="md-trigger" data-modal="modal-live">
+              <div>
+                <h3>Live.</h3>
+                <p>
+                  And now we aspire to be <em>The Muhibbains</em>.
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Modals -->
+    <div class="md-modal" id="modal-learn">
+      <div class="md-content">
+        <h3>
+          <a class="md-close"><i class="fa fa-times-circle"></i></a>
+          Learn.
+        </h3>
+        <div>
+          <p>We met at a Madrasah of knowledge...
+            a garden from the gardens of paradise
+            that our Prophet Muhammad SAW reminded
+            us to frequent.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="md-modal" id="modal-love">
+      <div class="md-content">
+        <h3>
+          <a class="md-close"><i class="fa fa-times-circle"></i></a>
+          Love.
+        </h3>
+        <div>
+          <p>We experienced something really special.
+            We experience Mahabbah...
+            that can be perfectly summed up in the greatest testimony of love...
+            La ilaha illallah Muhammadur Rasulullah!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="md-modal" id="modal-live">
+      <div class="md-content">
+        <h3>
+          <a class="md-close"><i class="fa fa-times-circle"></i></a>
+          Live.
+        </h3>
+        <div>
+          <p>And now we aspire to become The Muhibbains!
+            An aspiration that involves continually searching the heart for a soul.
+            For every truly living creation must have a heart and the search
+            for the soul only ends when it is called back home by its Creator, Allah SWT!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- the overlay element for modals -->
+    <div class="md-overlay"></div>
 
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="javascripts/others.js"></script>
