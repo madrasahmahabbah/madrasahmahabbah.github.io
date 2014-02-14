@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 @font-face {
@@ -48,95 +49,108 @@ body {
   font-weight: 300;
   font-size: 28px;
   line-height: 1.25;
-  font-family: 'Lato', 'Avenir Next', Arial, sans-serif; }
+  font-family: "Open Sans", "Lato", "Avenir Next", Arial, sans-serif; }
   @media only screen and (max-width: 767px) {
     /* line 11, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     body {
       background-size: 180% auto; } }
 
-/* line 25, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 26, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+.wrapper {
+  width: 100%; }
+
+/* line 30, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+.row {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto; }
+
+/* line 36, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility; }
+
+/* line 40, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 a, button {
   outline: none; }
 
-/* line 29, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 44, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 a {
   color: #85b91e;
   text-decoration: none;
   outline: none; }
 
-/* line 35, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 50, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 a:hover, a:focus {
   color: #658d17; }
 
-/* line 39, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 54, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 .mahabbah-header {
   background: #fff;
   margin: 0 auto;
   padding: 5em 0 4.2em;
   text-align: center; }
-  /* line 45, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 60, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   .mahabbah-header h1 {
     background: transparent url(../images/arabdots-green.svg) center top no-repeat;
     margin: 0;
     padding-top: 0.8em;
     font-weight: 800;
     font-size: 2.5em;
-    font-family: 'AvantGardeBold', 'Lato', Arial, sans-serif;
+    font-family: "AvantGardeBold", "Open Sans", "Lato", "Avenir Next", Arial, sans-serif;
     line-height: 0.8em;
     color: #85b91e;
     letter-spacing: -5px; }
-    /* line 56, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 71, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-header h1 > span {
       display: inline-block;
       color: #a2dd2d; }
-    /* line 61, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 76, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-header h1 > span.sub {
       display: block;
       padding: 0;
       font-size: 0.65em;
       font-weight: 400;
-      font-family: 'texgyreadventorregular', 'Lato', Arial, sans-serif;
+      font-family: "texgyreadventorregular", "Open Sans", "Lato", "Avenir Next", Arial, sans-serif;
       letter-spacing: 0;
       width: auto;
       color: #9e9777; }
-      /* line 71, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+      /* line 86, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
       .mahabbah-header h1 > span.sub > span {
         color: #c6be9b; }
   @media only screen and (max-width: 767px) {
-    /* line 39, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 54, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-header {
       padding: 2em 0; }
-      /* line 80, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+      /* line 95, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
       .mahabbah-header h1 {
         font-size: 2em; }
-        /* line 82, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+        /* line 97, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
         .mahabbah-header h1 span.sub {
           font-size: 0.5em;
           letter-spacing: 1px;
           word-spacing: normal; } }
 
-/* line 93, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 108, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 section {
   position: relative;
-  padding: 4em 10%;
-  background: #fff;
+  padding: 4em 1em;
   text-align: center; }
   @media only screen and (max-width: 767px) {
-    /* line 93, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 108, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     section {
       padding: 2em 0.5em;
       font-size: 0.7em; } }
 
-/* line 105, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 120, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 section p {
   margin: 0 auto;
   padding: 1.2em 0; }
   @media only screen and (max-width: 767px) {
-    /* line 105, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 120, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     section p {
       padding: 0.5em 0 1em; } }
 
-/* line 115, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 130, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 section button {
   border: none;
   display: inline-block;
@@ -144,7 +158,7 @@ section button {
   color: #fff;
   color: rgba(0, 0, 0, 0.4);
   font-weight: 400;
-  font-family: 'texgyreadventorregular', 'Lato', Arial, sans-serif;
+  font-family: "texgyreadventorregular", "Open Sans", "Lato", "Avenir Next", Arial, sans-serif;
   padding: 15px 30px;
   margin: 5px;
   text-transform: uppercase;
@@ -155,53 +169,52 @@ section button {
   -moz-transition: opacity 0.5s;
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s; }
-  /* line 131, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 146, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   section button span {
-    font-family: 'texgyreadventorbold', 'Lato', Arial, sans-serif; }
-  /* line 135, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    font-family: "texgyreadventorbold", "Open Sans", "Lato", "Avenir Next", Arial, sans-serif; }
+  /* line 150, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   section button:hover {
     opacity: .7; }
   @media only screen and (max-width: 767px) {
-    /* line 115, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 130, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     section button {
       padding: 5px 8px; } }
-  /* line 143, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 158, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   section button.trigger-about {
     background: #d04839; }
-  /* line 147, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 162, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   section button.trigger-mvmt {
     background: #85b91e; }
-  /* line 151, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 166, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   section button.facebook {
     background: #3b5999;
     color: rgba(255, 255, 255, 0.5); }
 
-/* Double Diagonal line */
-/* line 158, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 172, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 .mahabbah-welcome {
   z-index: 10;
   background: transparent; }
-  /* line 162, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
-  .mahabbah-welcome p strong {
+  /* line 176, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-welcome p strong.mm {
     background: transparent url(../images/arabdots-brown.svg) center top no-repeat;
     background-size: auto 38%;
-    font-family: 'AvantGardeBold';
+    font-family: "AvantGardeBold", "Open Sans", "Lato", "Avenir Next", Arial, sans-serif;
     letter-spacing: -3px;
-    padding: 0.6em 0.2em 0 0; }
-    /* line 170, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
-    .mahabbah-welcome p strong span {
+    padding: 0.6em 0.1em 0 0; }
+    /* line 184, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-welcome p strong.mm span {
       color: #b3ae94; }
-  /* line 175, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 189, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   .mahabbah-welcome p em {
     color: #b3ae94;
     font-weight: 400;
     font-style: normal; }
 
-/* line 182, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 196, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 .mahabbah-quran {
   z-index: 10;
   background: rgba(134, 131, 117, 0.7); }
-  /* line 186, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 200, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   .mahabbah-quran blockquote {
     display: none;
     margin: 0;
@@ -210,45 +223,45 @@ section button {
     padding-top: 2.6em;
     font-size: 0.9em;
     color: #ece9db; }
-    /* line 195, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 209, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-quran blockquote p {
       padding: 0; }
-    /* line 199, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 213, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-quran blockquote .cite {
       font-style: normal;
       font-weight: 500;
       padding-top: 1.2em;
       color: #d6d1be; }
-      /* line 205, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+      /* line 219, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
       .mahabbah-quran blockquote .cite:before {
         content: '\2014'; }
     @media only screen and (max-width: 767px) {
-      /* line 186, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+      /* line 200, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
       .mahabbah-quran blockquote {
         background-size: 80% auto;
         font-size: 0.8em;
         padding: 3em 0 0;
         margin: 0; } }
 
-/* line 219, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 233, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 .mahabbah-related {
   z-index: 10;
   background: #fff; }
-  /* line 224, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 238, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   .mahabbah-related h2 {
     margin-top: 0;
-    font-family: 'AvantGardeBold';
+    font-family: "AvantGardeBold", "Open Sans", "Lato", "Avenir Next", Arial, sans-serif;
     color: #85b91e;
     letter-spacing: -3px;
     line-height: 0.8em; }
-    /* line 231, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 245, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-related h2 span {
       display: inline-block;
       color: #a2dd2d; }
-  /* line 237, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  /* line 251, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
   .mahabbah-related nav {
     /* Effect: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */ }
-    /* line 239, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 253, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-related nav a {
       position: relative;
       display: inline-block;
@@ -266,14 +279,14 @@ section button {
       -ms-perspective: 1000px;
       -o-perspective: 1000px;
       perspective: 1000px; }
-      /* line 255, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+      /* line 269, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
       .mahabbah-related nav a:hover, .mahabbah-related nav a:focus {
         outline: none; }
-    /* line 260, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 274, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-related nav a img {
       display: block;
       margin: 0 auto 0.5em; }
-    /* line 265, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 279, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-related nav a span {
       color: #868375;
       font-size: 0.8em;
@@ -295,7 +308,7 @@ section button {
       -ms-transform-style: preserve-3d;
       -o-transform-style: preserve-3d;
       transform-style: preserve-3d; }
-    /* line 277, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 291, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .csstransforms3d .mahabbah-related nav a span::before {
       position: absolute;
       top: 100%;
@@ -322,7 +335,7 @@ section button {
       -ms-transform-origin: 50% 0;
       -o-transform-origin: 50% 0;
       transform-origin: 50% 0; }
-    /* line 295, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 309, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-related nav a:hover span,
     .mahabbah-related nav a:focus span {
       -webkit-transform: rotateX(92deg) translateY(-33px);
@@ -331,26 +344,58 @@ section button {
       -o-transform: rotateX(92deg) translateY(-33px);
       transform: rotateX(92deg) translateY(-33px); }
     @media only screen and (max-width: 767px) {
-      /* line 305, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+      /* line 319, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
       .mahabbah-related nav a {
         display: block;
         width: 100%;
         margin: 0.5em 0; }
-      /* line 310, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+      /* line 324, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
       .mahabbah-related nav a span {
         width: 100%; } }
 
-/* line 317, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+/* line 331, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
 .mahabbah-footer {
   padding: 1em 2em 2em;
   text-align: center;
   font-size: 0.6em;
   color: #aca784;
   background: rgba(255, 255, 255, 0.4); }
+  /* line 338, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-footer a {
+    color: #aca784; }
   @media only screen and (max-width: 767px) {
-    /* line 317, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    /* line 331, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
     .mahabbah-footer {
       font-size: 0.4em; } }
+
+/* line 347, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+.instagram-float {
+  position: fixed;
+  bottom: 0;
+  right: 10px; }
+  /* line 353, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+  .instagram-float a {
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.3em 0.6em;
+    border: 1px solid #868375;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+    color: #868375;
+    background: #fff;
+    font-size: 0.5em;
+    font-weight: 500;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s, background 0.2s;
+    -moz-transition: opacity 0.2s, background 0.2s;
+    -o-transition: opacity 0.2s, background 0.2s;
+    transition: opacity 0.2s, background 0.2s; }
+    /* line 367, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_main.scss */
+    .instagram-float a:hover {
+      background: #e2decc;
+      opacity: 1; }
 
 /* Overlay style */
 /* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
@@ -435,7 +480,7 @@ section button {
     /* line 80, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
     .overlay-mvmt ul li a span {
       display: inline-block;
-      font-weight: 500;
+      font-weight: 700;
       color: #c9f76e;
       -webkit-transition: color 0.5s;
       -moz-transition: color 0.5s;
@@ -730,11 +775,11 @@ section button {
   /* line 191, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
   .overlay-about ul li {
     min-height: 34px; } }
-/* line 1, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 5, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .container {
   min-height: 100%; }
 
-/* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 9, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-modal {
   position: fixed;
   top: 50%;
@@ -746,17 +791,12 @@ section button {
   z-index: 2000;
   visibility: hidden;
   font-size: 0.8em;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
-  /* line 20, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+  /* line 22, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
   .md-modal button {
     border: none;
     padding: 0.3em 0.6em;
@@ -770,19 +810,19 @@ section button {
     display: inline-block;
     margin: 3px 2px;
     border-radius: 2px; }
-  /* line 35, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+  /* line 37, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
   .md-modal button:hover {
     background: #A5281B; }
   @media only screen and (max-width: 767px) {
-    /* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+    /* line 9, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
     .md-modal {
       font-size: 0.6em; } }
 
-/* line 44, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 46, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-show {
   visibility: visible; }
 
-/* line 48, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 50, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-overlay {
   position: fixed;
   width: 100%;
@@ -792,27 +832,30 @@ section button {
   left: 0;
   z-index: 1000;
   opacity: 0;
-  background: rgba(143, 27, 15, 0.8);
+  background: rgba(173, 54, 41, 0.8);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
-/* line 61, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 63, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-show ~ .md-overlay {
   opacity: 1;
   visibility: visible; }
 
 /* Content styles */
-/* line 67, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 69, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-content {
   color: #fff;
   background: #e74c3c;
   position: relative;
   border-radius: 3px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
 
-/* line 75, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 78, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-content h3 {
   margin: 0;
   padding: 0.4em;
@@ -825,35 +868,47 @@ section button {
   border-radius: 3px 3px 0 0;
   color: rgba(0, 0, 0, 0.5); }
 
-/* line 88, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 91, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-content > div {
   padding: 15px 40px 30px;
   margin: 0;
   font-weight: 300;
   font-size: 1.15em; }
 
-/* line 95, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 98, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-content > div p {
   margin: 0;
-  padding: 10px 0; }
+  padding: 10px 0;
+  text-align: center; }
 
-/* line 100, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 104, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-content > div ul {
   margin: 0;
   padding: 0 0 30px 20px; }
 
-/* line 105, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 109, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-content > div ul li {
   padding: 5px 0; }
 
-/* line 109, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 113, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+.md-content > div p span {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5); }
+
+/* line 118, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+.md-content > div p em {
+  font-style: normal;
+  font-weight: 500;
+  color: #ff958a; }
+
+/* line 124, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-content button {
   display: block;
   margin: 0 auto;
   font-size: 0.8em; }
 
 /* Effect 3: Slide from the bottom */
-/* line 116, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 131, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-modal .md-content {
   opacity: 0;
   -webkit-transform: translateY(20%);
@@ -866,7 +921,7 @@ section button {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
-/* line 122, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 137, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-show.md-modal .md-content {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -875,12 +930,12 @@ section button {
   transform: translateY(0);
   opacity: 1; }
 
-/* line 127, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+/* line 142, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
 .md-close {
   display: inline-block;
   float: right;
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer; }
-  /* line 133, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
+  /* line 148, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Github/madrasahmahabbah/source/stylesheets/_modal.scss */
   .md-close:hover {
     color: #fff; }
