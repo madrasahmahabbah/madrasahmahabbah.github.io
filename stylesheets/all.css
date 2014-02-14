@@ -1,0 +1,641 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@font-face {
+  font-family: 'AvantGardeBold';
+  src: url("../fonts/huge_agb_v5-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/huge_agb_v5-webfont.woff") format("woff"), url("../fonts/huge_agb_v5-webfont.ttf") format("truetype"), url("../fonts/huge_agb_v5-webfont.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: 'texgyreadventorregular';
+  src: url("../fonts/texgyreadventor-regular-webfont.eot");
+  src: url("../fonts/texgyreadventor-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/texgyreadventor-regular-webfont.woff") format("woff"), url("../fonts/texgyreadventor-regular-webfont.ttf") format("truetype"), url("../fonts/texgyreadventor-regular-webfont.svg#texgyreadventorregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'texgyreadventorbold';
+  src: url("../fonts/texgyreadventor-bold-webfont.eot");
+  src: url("../fonts/texgyreadventor-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/texgyreadventor-bold-webfont.woff") format("woff"), url("../fonts/texgyreadventor-bold-webfont.ttf") format("truetype"), url("../fonts/texgyreadventor-bold-webfont.svg#texgyreadventorbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@-ms-viewport {
+  width: device-width; }
+
+/* line 3, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 4, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+.clearfix:before, .clearfix:after {
+  content: '';
+  display: table; }
+
+/* line 5, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 7, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+html, body {
+  overflow-x: hidden; }
+
+/* line 11, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+body {
+  background: #e2decc;
+  background: #e2decc url(../images/naal-bg.jpg) center center no-repeat fixed;
+  color: #868375;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.25;
+  font-family: 'Lato', 'Avenir Next', Arial, sans-serif; }
+  @media only screen and (max-width: 767px) {
+    /* line 11, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    body {
+      background-size: 180% auto; } }
+
+/* line 25, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+a {
+  color: #85b91e;
+  text-decoration: none;
+  outline: none; }
+
+/* line 31, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+a:hover, a:focus {
+  color: #658d17; }
+
+/* line 35, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+.mahabbah-header {
+  background: #fff;
+  margin: 0 auto;
+  padding: 5em 0 4.2em;
+  text-align: center; }
+  /* line 41, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-header h1 {
+    background: transparent url(../images/arabdots-green.svg) center top no-repeat;
+    margin: 0;
+    padding-top: 0.8em;
+    font-weight: 800;
+    font-size: 2.5em;
+    font-family: 'AvantGardeBold';
+    line-height: 0.8em;
+    color: #85b91e;
+    letter-spacing: -5px; }
+    /* line 52, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-header h1 > span {
+      display: inline-block;
+      color: #a2dd2d; }
+    /* line 57, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-header h1 > span.sub {
+      display: block;
+      padding: 0;
+      font-size: 0.65em;
+      font-weight: 400;
+      font-family: 'texgyreadventorregular';
+      letter-spacing: 0;
+      width: auto;
+      color: #9e9777; }
+      /* line 67, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+      .mahabbah-header h1 > span.sub > span {
+        color: #c6be9b; }
+  @media only screen and (max-width: 767px) {
+    /* line 35, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-header {
+      padding: 2em 0; }
+      /* line 76, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+      .mahabbah-header h1 {
+        font-size: 2em; }
+        /* line 78, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+        .mahabbah-header h1 span.sub {
+          font-size: 0.5em;
+          letter-spacing: 1px;
+          word-spacing: normal; } }
+
+/* line 89, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+section {
+  position: relative;
+  padding: 4em 10%;
+  background: #fff;
+  text-align: center; }
+  @media only screen and (max-width: 767px) {
+    /* line 89, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    section {
+      padding: 2em 0.5em;
+      font-size: 0.7em; } }
+
+/* line 101, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+section p {
+  margin: 0 auto;
+  padding: 1.2em 0; }
+  @media only screen and (max-width: 767px) {
+    /* line 101, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    section p {
+      padding: 0.5em 0 1em; } }
+
+/* line 111, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+section button {
+  border: none;
+  display: inline-block;
+  background: #868375;
+  color: #fff;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  font-family: 'texgyreadventorregular';
+  padding: 10px 20px;
+  margin: 5px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  letter-spacing: 3px;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  outline: none;
+  padding: 15px 30px; }
+  /* line 130, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  section button span {
+    font-family: 'texgyreadventorbold'; }
+  /* line 134, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  section button:hover {
+    opacity: .7; }
+  @media only screen and (max-width: 767px) {
+    /* line 111, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    section button {
+      padding: 5px 8px; } }
+  /* line 142, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  section button.trigger-about {
+    background: #d04839; }
+  /* line 146, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  section button.trigger-mvmt {
+    background: #85b91e; }
+  /* line 150, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  section button.facebook {
+    background: #3b5999;
+    color: rgba(255, 255, 255, 0.5); }
+
+/* Double Diagonal line */
+/* line 157, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+.mahabbah-welcome {
+  z-index: 10;
+  background: transparent; }
+  /* line 161, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-welcome p strong {
+    background: transparent url(../images/arabdots-brown.svg) center top no-repeat;
+    background-size: auto 38%;
+    font-family: 'AvantGardeBold';
+    letter-spacing: -3px;
+    padding: 0.6em 0.2em 0 0; }
+    /* line 169, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-welcome p strong span {
+      color: #b3ae94; }
+  /* line 174, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-welcome p em {
+    color: #b3ae94;
+    font-weight: 400;
+    font-style: normal; }
+
+/* line 181, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+.mahabbah-quran {
+  z-index: 10;
+  background: rgba(134, 131, 117, 0.7); }
+  /* line 185, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-quran blockquote {
+    display: none;
+    margin: 0;
+    font-style: italic;
+    background: transparent url(../images/bismillah-white.png) center top no-repeat;
+    padding-top: 2.6em;
+    font-size: 0.9em;
+    color: #ece9db; }
+    /* line 194, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-quran blockquote p {
+      padding: 0; }
+    /* line 198, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-quran blockquote .cite {
+      font-style: normal;
+      font-weight: 500;
+      padding-top: 1.2em;
+      color: #d6d1be; }
+      /* line 204, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+      .mahabbah-quran blockquote .cite:before {
+        content: '\2014'; }
+    @media only screen and (max-width: 767px) {
+      /* line 185, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+      .mahabbah-quran blockquote {
+        background-size: 80% auto;
+        font-size: 0.8em;
+        padding: 3em 0 0;
+        margin: 0; } }
+
+/* line 218, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+.mahabbah-related {
+  z-index: 10;
+  background: #fff; }
+  /* line 223, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-related h2 {
+    margin-top: 0;
+    font-family: 'AvantGardeBold';
+    color: #85b91e;
+    letter-spacing: -3px;
+    line-height: 0.8em; }
+    /* line 230, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-related h2 span {
+      display: inline-block;
+      color: #a2dd2d; }
+  /* line 236, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+  .mahabbah-related nav {
+    /* Effect: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */ }
+    /* line 238, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-related nav a {
+      position: relative;
+      display: inline-block;
+      margin: 0.5em 0.3em;
+      outline: none;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 0.8em;
+      line-height: 1.5em;
+      -webkit-perspective: 1000px;
+      -moz-perspective: 1000px;
+      perspective: 1000px; }
+      /* line 256, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+      .mahabbah-related nav a:hover, .mahabbah-related nav a:focus {
+        outline: none; }
+    /* line 261, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-related nav a img {
+      display: block;
+      margin: 0 auto 0.5em; }
+    /* line 266, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-related nav a span {
+      color: #868375;
+      font-size: 0.8em;
+      position: relative;
+      display: block;
+      padding: 0 14px;
+      background: #ece9db;
+      -webkit-transition: -webkit-transform 0.3s;
+      -moz-transition: -moz-transform 0.3s;
+      transition: transform 0.3s;
+      -webkit-transform-origin: 50% 0;
+      -moz-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d; }
+    /* line 284, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .csstransforms3d .mahabbah-related nav a span::before {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #868375;
+      color: #fff;
+      font-size: 0.8em;
+      letter-spacing: 3px;
+      opacity: 1;
+      content: attr(data-hover);
+      -webkit-transition: background 0.3s;
+      -moz-transition: background 0.3s;
+      transition: background 0.3s;
+      -webkit-transform: rotateX(-90deg);
+      -moz-transform: rotateX(-90deg);
+      transform: rotateX(-90deg);
+      -webkit-transform-origin: 50% 0;
+      -moz-transform-origin: 50% 0;
+      transform-origin: 50% 0; }
+    /* line 308, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-related nav a:hover span,
+    .mahabbah-related nav a:focus span {
+      -webkit-transform: rotateX(90.5deg) translateY(-22px);
+      -moz-transform: rotateX(90.5deg) translateY(-22px);
+      transform: rotateX(90.5deg) translateY(-22px); }
+    @media only screen and (max-width: 767px) {
+      /* line 319, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+      .mahabbah-related nav a {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0; }
+      /* line 324, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+      .mahabbah-related nav a span {
+        width: 100%; } }
+
+/* line 331, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+.mahabbah-footer {
+  padding: 1em 2em 2em;
+  text-align: center;
+  font-size: 0.6em;
+  color: #aca784;
+  background: rgba(255, 255, 255, 0.4); }
+  @media only screen and (max-width: 767px) {
+    /* line 331, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_main.scss */
+    .mahabbah-footer {
+      font-size: 0.4em; } }
+
+/* Overlay style */
+/* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+.overlay-mvmt {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background: transparent url(../images/naal-black.png) center center no-repeat;
+  /* Overlay closing cross */
+  /* Menu style */ }
+  /* line 15, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt .overlay-mvmt-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(153, 204, 51, 0.9);
+    z-index: 0; }
+  /* line 24, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt .overlay-mvmt-close {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    border: none;
+    background: url(../images/cross.png) no-repeat center center;
+    text-indent: 200%;
+    color: transparent;
+    outline: none;
+    z-index: 100; }
+    @media only screen and (max-width: 767px) {
+      /* line 24, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+      .overlay-mvmt .overlay-mvmt-close {
+        background-size: 90% auto;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8); } }
+  /* line 46, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt nav {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    height: 60%;
+    font-size: 54px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10; }
+  /* line 58, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: relative; }
+  /* line 68, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt ul li {
+    display: block;
+    height: 20%;
+    height: calc(100% / 7);
+    min-height: 54px; }
+  /* line 75, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt ul li a {
+    padding: 0.1em 1em;
+    font-weight: 300;
+    display: block;
+    color: #fff;
+    -webkit-transition: color 0.5s, background 0.5s;
+    transition: color 0.5s, background 0.5s; }
+    /* line 83, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+    .overlay-mvmt ul li a span {
+      display: inline-block;
+      font-weight: 500;
+      color: #c9f76e;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s; }
+  /* line 94, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt ul li a:hover,
+  .overlay-mvmt ul li a:focus {
+    color: #99cc33;
+    background: #fff; }
+    /* line 98, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+    .overlay-mvmt ul li a:hover span,
+    .overlay-mvmt ul li a:focus span {
+      color: #99cc33; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 104, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+    .overlay-mvmt nav {
+      height: 70%;
+      font-size: 34px; }
+    /* line 108, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+    .overlay-mvmt ul li {
+      min-height: 34px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+    .overlay-mvmt {
+      background-size: 180% auto; }
+      /* line 115, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+      .overlay-mvmt nav {
+        height: 65%;
+        font-size: 24px;
+        line-height: 1em; }
+      /* line 120, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+      .overlay-mvmt ul li {
+        height: auto;
+        min-height: 24px; }
+      /* line 124, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+      .overlay-mvmt ul li a {
+        padding: 0.5em 1em; } }
+
+/* Effects */
+/* line 131, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+.overlay-mvmt-hugeinc {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s; }
+  /* line 138, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt-hugeinc.open {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s; }
+  /* line 145, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt-hugeinc nav {
+    -webkit-perspective: 1200px;
+    perspective: 1200px; }
+  /* line 150, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt-hugeinc nav ul {
+    opacity: 0.4;
+    -webkit-transform: translateY(-25%) rotateX(35deg);
+    transform: translateY(-25%) rotateX(35deg);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s; }
+  /* line 158, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt-hugeinc.open nav ul {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg); }
+  /* line 164, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-movement.scss */
+  .overlay-mvmt-hugeinc.close nav ul {
+    -webkit-transform: translateY(25%) rotateX(-35deg);
+    transform: translateY(25%) rotateX(-35deg); }
+
+/* Overlay style */
+/* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+.overlay-about {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background: #ad3629 url(../images/M-orange.jpg) center 25% no-repeat;
+  /* Overlay closing cross */ }
+  @media only screen and (max-height: 960px) {
+    /* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+    .overlay-about {
+      background-size: auto 60%; } }
+  @media only screen and (max-width: 767px) {
+    /* line 6, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+    .overlay-about {
+      background: #ad3629 url(../images/M-orange-small.jpg) center center no-repeat;
+      background-size: auto; } }
+  /* line 27, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .overlay-about .overlay-about-close {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    border: none;
+    background: url(../images/cross.png) no-repeat center center;
+    text-indent: 200%;
+    color: transparent;
+    outline: none;
+    z-index: 100; }
+    @media only screen and (max-width: 767px) {
+      /* line 27, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+      .overlay-about .overlay-about-close {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8); } }
+
+/* Effects */
+/* line 50, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+.container {
+  overflow-x: hidden;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s; }
+  /* line 56, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .container.overlay-about-open {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%); }
+  /* line 61, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .container::after {
+    content: '';
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(134, 131, 117, 0.9);
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+    z-index: 30; }
+  /* line 76, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .container.overlay-about-open::after {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s; }
+
+/* line 84, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+.overlay-about-contentpush {
+  visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+  transition: transform 0.5s, visibility 0s 0.5s; }
+  /* line 93, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .overlay-about-contentpush.open {
+    visibility: visible;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s; }
+
+/* line 102, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+.mahabbah-about {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  color: #fff;
+  background: rgba(173, 54, 41, 0.8);
+  padding: 0.5em 0; }
+  /* line 110, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .mahabbah-about .col {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 0.7em;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.15);
+    min-height: 200px; }
+  /* line 123, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .mahabbah-about .col:nth-child(3) {
+    box-shadow: none; }
+  /* line 128, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .mahabbah-about h3 {
+    color: #88261b;
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    font-family: 'AvantGardeBold';
+    font-size: 2em;
+    letter-spacing: -2px;
+    line-height: 1em;
+    padding-top: 0.2em; }
+  /* line 140, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .mahabbah-about p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1em; }
+    /* line 146, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+    .mahabbah-about p em {
+      font-style: normal;
+      color: #eb8e84; }
+  @media only screen and (max-width: 767px) {
+    /* line 102, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+    .mahabbah-about {
+      bottom: 0;
+      height: 100%; }
+      /* line 156, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+      .mahabbah-about .cols {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%); }
+      /* line 163, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+      .mahabbah-about .col {
+        width: 100%;
+        font-size: 0.7em;
+        min-height: 0;
+        padding: 1em 0.5em;
+        box-shadow: none; } }
+
+@media screen and (max-height: 30.5em) {
+  /* line 183, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .overlay-about nav {
+    height: 70%;
+    font-size: 34px; }
+
+  /* line 187, /Volumes/My Book FW 2/Cloud/Dropbox/Dev/Middleman/madrasahmahabbah/source/stylesheets/_overlay-about.scss */
+  .overlay-about ul li {
+    min-height: 34px; } }
