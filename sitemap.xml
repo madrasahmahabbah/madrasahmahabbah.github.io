@@ -5,11 +5,15 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://madrasahmahabbah.com/index.html</loc>
+    <loc>http://madrasahmahabbah.com/beta/mabkhoormusic</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://madrasahmahabbah.com/raudhatulmuhibbain</loc>
+    <loc>http://madrasahmahabbah.com/beta/raudhatulmuhibbain</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://madrasahmahabbah.com/index.html</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
