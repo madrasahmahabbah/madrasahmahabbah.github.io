@@ -1,0 +1,1 @@
+(function(){$(function(){var o,a,i,c;c=$(window),o=$("body.initiative"),i=$(".mahabbah-header"),a=$(".mahabbah-footer"),c.scroll(function(){var a,n;a=-(c.scrollTop()/5),o.css({backgroundPosition:"0 "+a+"px"}),n=-(c.scrollTop()/1),i.css({y:n+"px"})})})}).call(this);
