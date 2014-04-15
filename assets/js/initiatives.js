@@ -1,1 +1,1 @@
-(function(){!function(){var t;return t=$(".footer-hadith"),t.hide().eq(Math.floor(Math.random()*t.length)).show()}()}).call(this);
+(function(){!function(){var h;return h=$(".m-hadith"),h.hide().eq(Math.floor(Math.random()*h.length)).show()}()}).call(this);
