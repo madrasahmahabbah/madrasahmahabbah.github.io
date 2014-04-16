@@ -5,23 +5,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://madrasahmahabbah.com/beta/mabkhoor-music-old.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://madrasahmahabbah.com/beta/mabkhoor-music.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://madrasahmahabbah.com/beta/mahabbah-fashion.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://madrasahmahabbah.com/beta/raudhatul-muhibbain.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>http://madrasahmahabbah.com/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://madrasahmahabbah.com/inits/mf.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://madrasahmahabbah.com/inits/mm.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://madrasahmahabbah.com/inits/rm.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
