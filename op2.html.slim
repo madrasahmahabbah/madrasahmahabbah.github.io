@@ -1,0 +1,252 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    meta content="width=device-width, initial-scale=1" name="viewport"
+    title= current_page.data.title || data.site.title
+    meta content=(current_page.data.title || data.site.title) name="description"
+    meta content=data.site.keywords name="keywords"
+    meta content="@wansaleh" name="author"
+    link href="/images/favicon.png" rel=("shortcut icon")
+    link href="/assets/css/normalize.min.css" rel="stylesheet"
+    link href="/assets/css/animate.min.css" rel="stylesheet"
+    link href="/assets/css/onepage-scroll.css" rel="stylesheet"
+    link href="/assets/css/onepage.css" rel="stylesheet"
+    script src="/assets/js/modernizr.js"
+
+  body class=("home #{page_classes}")
+    = partial 'topnav', :locals => { :home => true }
+
+    .container
+      /! SECTION: HEADER
+      section.m-header
+        .header-wrapper
+          .title
+            h1
+              | Madrasah
+              span Mahabbah
+              span.sub
+                | Learn. <span>Love.</span> Live.
+          .welcome
+            .alpha
+              p
+                | <strong class="mm">Madrasah<span>Mahabbah</span></strong> is many things. But it is nothing if it is not a <em>family</em>. Because the smallest and biggest part of our ummah is <em>family</em>. It is when we are a <em>family</em> that we truly <em>learn,</em> <em>love</em> and <em>live.</em>
+      /! SECTION: PILLARS
+      section.m-pillars
+        .pillars-wrapper
+          .title
+            h2
+              ' Our
+              span Pillars
+          .row
+            .alpha
+              .wrap
+                h3
+                  i.fa.fa-book
+                  | Learn
+                .text
+                  <p>We met at a <em>Madrasah</em> of knowledge.</p>
+                  <p>A garden from the gardens of paradise that our Prophet Muhammad (SAW) <em>reminded us to frequent.</em></p>
+            .beta
+              .wrap
+                h3
+                  i.fa.fa-heart
+                  | Love
+                .text
+                  <p>We experienced something really special.</p>
+                  <p>We experienced <em>Mahabbah</em> &mdash; That can be perfectly summed up in the <em>greatest testimony of love.</em></p>
+                  <p><em>La ilaha illallah<br>Muhammadur Rasulullah!</em></p>
+            .gamma
+              .wrap
+                h3
+                  i.fa.fa-umbrella
+                  | Live
+                .text
+                  p
+                    <p>And now we aspire to become <em>The Muhibbains</em>, an aspiration that requires continually <em>learning to love, loving to live</em> and <em>living to learn and love</em> by the best example of Al Mustafa (SAW).</p>
+                    <p>Until we return to <em>Dar Al Akhirah</em>, to and with the rahmat of Allah SWT and the syafaat of His Beloved, <em>Saiyidina Rasulullah (SAW), InsyaAllah.</em></p>
+      /! SECTION: HADITH
+      section.m-hadith
+        .hadith-wrapper
+          blockquote.hadith
+            - (data.quotes.hadiths + data.quotes.ayats).each do |line|
+              - line = line.split('|')
+              - hadith = line[0]
+              - cite = line[1]
+              .random
+                = hadith
+                span.cite= cite
+      /! SECTION: INITIATIVES
+      section.m-init
+        .init-wrapper
+          .title
+            h2
+              ' Our
+              span Initiatives
+          .row
+            .col
+              /! Raudhatul Muhibbain
+              .init.m-rm data-init="rm"
+                a href=data.site.init_links.rm
+                  .wrap
+                    h3
+                      = data.site.init_titles.rm
+                    p.text
+                      | A garden from <em>the gardens of paradise, InsyaAllah.</em>
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+            .col
+              /! Mabkhoor Music
+              .init.m-mm data-init="mm"
+                a href=data.site.init_links.mm
+                  .wrap
+                    h3
+                      = data.site.init_titles.mm
+                    p.text
+                      | <em>Message</em> through <em>melody and music.</em>
+                      /! Erwan composes songs, Zafri produces things, Adib sings a beautiful voice. We call ourselves The Muhibbains. Along comes Syed &amp;amp; Luqman, as does Shahrul. Syeikh Radzi plucks his oud from Yemen with Deen lyrical from Singapore. Wan makes the music and there goes our family&amp;mdash;Mabkhoor Music.
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+            .col
+              /! Mahabbah Fashion
+              .init.m-mf data-init="mf"
+                a href=data.site.init_links.mf
+                  .wrap
+                    h3
+                      = data.site.init_titles.mf
+                    p.text
+                      | <em>Akhlaq</em> of Rasulullah <em>is the best attire</em> one can wear.
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+            .col
+              /! Mahabbah Food &amp; Beverages
+              .init.m-mfb data-init="mfb"
+                a href=data.site.init_links.mfb
+                  .wrap
+                    h3
+                      = data.site.init_titles.mfb
+                    p.text
+                      | For the <em>body, mind</em> and <em>soul.</em>
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+          /! second row
+          .row
+            .col
+              /! Mahabbah Training
+              .init.m-mtc data-init="mtc"
+                a href=data.site.init_links.mtc
+                  .wrap
+                    h3
+                      = data.site.init_titles.mtc
+                    p.text
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+            .col
+              /! Mahabbah Travels
+              .init.m-mtt data-init="mtt"
+                a href=data.site.init_links.mtt
+                  .wrap
+                    h3
+                      = data.site.init_titles.mtt
+                    p.text
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+            .col
+              /! Mahabbah Books
+              .init.m-mb data-init="mb"
+                a href=data.site.init_links.mb
+                  .wrap
+                    h3
+                      = data.site.init_titles.mb
+                    p.text
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+            .col
+              /! Mahabbah Technologies
+              .init.m-mt data-init="mt"
+                a href=data.site.init_links.mt
+                  .wrap
+                    h3
+                      = data.site.init_titles.mt
+                    p.text
+                      | Using Technology as <em>tool for taqwa.</em>
+                  .overlay
+                    .wrap-ol
+                      .logo
+                      button Visit site
+      /! SECTION: RELATED
+      section.m-related
+        .related-wrapper
+          .title
+            h2
+              ' Our Gardens of
+              span Paradise
+          .row
+            .col
+              .wrap
+                h3 Majlis Ta'lim Darul Murtadza
+                div Habib Ali Zaenal Abidin
+                a.btn href="http://www.darulmurtadza.com/"  Visit site
+            .col
+              .wrap
+                h3 Majlis Ta'lim Darul Muhibbin
+                div Ustaz Ahmad bin Shadan
+                a.btn href="http://www.dmuhibbin.com/"  Visit site
+            .col
+              .wrap
+                h3 Madrasah At-Tazkiyah
+                div Habib Najmuddin
+                a.btn href="http://www.madrasahattazkiyah.com/"  Visit site
+      /! SECTION: MUHIBBAINS
+      section.m-muhibbains
+        .muhibbains-wrapper
+          .bio-wrapper
+            .bio
+              .col
+                .name Erwan b. Taib
+                .phone +6012&nbsp;9162597
+                .twitter
+                  a href="https://instagram.com/erwanmuhibbain"
+                    i.fa.fa-instagram
+                    | erwanmuhibbain
+              .col
+                .name Zafri b. Nazaruddin
+                .phone +6011&nbsp;37663796
+                .twitter
+                  a href="https://instagram.com/zafmuhibbain"
+                    i.fa.fa-instagram
+                    | zafmuhibbain
+              .col
+                .name Abdul Mutalib b. Nahar
+                .phone +6018&nbsp;7886697
+                .twitter
+                  a href="https://instagram.com/adeepnahar_"
+                    i.fa.fa-instagram
+                    | adeepnahar_
+    script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+    script src="/assets/js/jquery.onepage-scroll.js"
+    script src="/assets/js/onepage.js"
+    javascript:
+      | (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      | (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      | m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      | })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      | ga('create', 'UA-48115213-1', 'madrasahmahabbah.com');
+      | ga('send', 'pageview');
+
